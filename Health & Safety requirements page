@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Health & Safety Requirements | Immediate Painters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+header {
+  background: #0b0b0b;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+header h1 {
+  color: #00b050;
+}
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.rule {
+  margin-bottom: 25px;
+  padding-left: 15px;
+  border-left: 4px solid #00b050;
+}
+.rule h2 {
+  color: #00b050;
+}
+.notice {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+a.back {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #00b050;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Health & Safety Requirements</h1>
+  <p>Minimum expectations for painters and job sites</p>
+</header>
+
+<section>
+
+  <div class="rule">
+    <h2>General Duty of Care</h2>
+    <p>
+      All painters and clients must comply with the Health and Safety at Work Act 2015.
+      Painters are responsible for working safely and identifying hazards.
+    </p>
+  </div>
+
+  <div class="rule">
+    <h2>Personal Protective Equipment (PPE)</h2>
+    <p>
+      Appropriate PPE must be used where required, including masks, gloves,
+      eye protection, and fall protection where applicable.
+    </p>
+  </div>
+
+  <div class="rule">
+    <h2>Hazard Identification</h2>
+    <p>
+      Hazards such as working at height, fumes, confined spaces, and electrical
+      risks must be identified and managed before work begins.
+    </p>
+  </div>
+
+  <div class="rule">
+    <h2>Site Safety</h2>
+    <p>
+      Clients must ensure reasonable site safety, including access, ventilation,
+      and protection of occupants where painting work is undertaken.
+    </p>
+  </div>
+
+  <div class="notice">
+    <strong>Important:</strong> Immediate Painters provides guidance only.
+    Responsibility for compliance remains with the painter and the client.
+  </div>
+
+  <a class="back" href="index.html">← Back to home</a>
+
+</section>
+
+</body>
+</html>
 
