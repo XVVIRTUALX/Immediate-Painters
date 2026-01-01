@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>How Immediate Painters Works</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
   margin: 0;
@@ -11,18 +12,24 @@ body {
   background: #ffffff;
   color: #222;
 }
-  <nav class="nav">
-  <a href="index.html">Home</a>
-  <a href="how-it-works.html">How It Works</a>
-  <a href="why-immediate-painters.html">Why</a>
-  <a href="jobs.html">Jobs</a>
-  <a href="dashboard.html">Dashboard</a>
-  <a href="quotes.html">Quotes</a>
-  <a href="messages.html">Messages</a>
-  <a href="health-safety.html">H&S</a>
-  <a href="health-safety-certificates.html">Certificates</a>
-  <a href="incident-report.html">Incident</a>
-</nav>
+
+nav {
+  background: #0b0b0b;
+  padding: 12px 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 header {
   background: #0b0b0b;
@@ -30,23 +37,30 @@ header {
   padding: 40px 20px;
   text-align: center;
 }
+
 header h1 {
   color: #00b050;
+  margin-bottom: 8px;
 }
-section {
+
+main {
   max-width: 900px;
   margin: auto;
   padding: 40px 20px;
 }
+
 .step {
   margin-bottom: 30px;
   padding-left: 15px;
   border-left: 4px solid #00b050;
 }
+
 .step h2 {
   color: #00b050;
+  margin-bottom: 6px;
 }
-a.back {
+
+.back {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
@@ -58,49 +72,56 @@ a.back {
 
 <body>
 
+<nav>
+  <a href="index.html">Home</a>
+  <a href="how-it-works.html">How it works</a>
+  <a href="jobs.html">Projects</a>
+</nav>
+
 <header>
   <h1>How Immediate Painters Works</h1>
-  <p>A simple, supervised process for painters and clients.</p>
+  <p>A managed, supervised process for painting projects.</p>
 </header>
 
-<section>
-
-  <div class="step">
-    <h2>For Painters</h2>
-    <p>
-      Create a profile, submit quotes, and work under supervision if required.
-      Painters may be independent contractors or part of supervised teams.
-    </p>
-  </div>
+<main>
 
   <div class="step">
     <h2>For Clients</h2>
     <p>
-      Post your painting job, receive clear quotes, approve work, and track progress
-      with confidence.
+      Clients request a managed painting project through Immediate Painters.
+      Project scope, timing, and requirements are reviewed before proceeding.
     </p>
   </div>
 
   <div class="step">
-    <h2>Supervision & Compliance</h2>
+    <h2>For Painters</h2>
     <p>
-      Quotes may be reviewed by experienced supervisors to ensure clarity,
-      pricing transparency, and basic NZ compliance expectations.
+      Independent painting contractors may be engaged by Immediate Painters
+      for specific projects by invitation. Contractors remain independent
+      and responsible for their own business obligations.
     </p>
   </div>
 
   <div class="step">
-    <h2>Payments & Agreements</h2>
+    <h2>Supervision & Coordination</h2>
     <p>
-      Immediate Painters facilitates communication and structure only.
-      Payments and contracts are agreed directly between painters and clients.
+      Immediate Painters may assist with coordination, communication,
+      and independent project oversight where agreed.
     </p>
   </div>
 
-  <a class="back" href="index.html">← Back to home</a>
+  <div class="step">
+    <h2>Quotes, Agreements & Payments</h2>
+    <p>
+      Quotes are requested and reviewed as part of the managed project process.
+      Payments and contractual arrangements are agreed directly between
+      clients and contractors unless otherwise specified in writing.
+    </p>
+  </div>
 
-</section>
+  <a class="back" href="index.html">← Back to Immediate Painters</a>
+
+</main>
 
 </body>
 </html>
-
