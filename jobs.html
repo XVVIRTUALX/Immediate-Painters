@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Available Painting Jobs | Immediate Painters</title>
-<h2>Available Painting Jobs</h2>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
   margin: 0;
@@ -12,18 +12,24 @@ body {
   background: #ffffff;
   color: #222;
 }
-  <nav class="nav">
-  <a href="index.html">Home</a>
-  <a href="how-it-works.html">How It Works</a>
-  <a href="why-immediate-painters.html">Why</a>
-  <a href="jobs.html">Jobs</a>
-  <a href="dashboard.html">Dashboard</a>
-  <a href="quotes.html">Quotes</a>
-  <a href="messages.html">Messages</a>
-  <a href="health-safety.html">H&S</a>
-  <a href="health-safety-certificates.html">Certificates</a>
-  <a href="incident-report.html">Incident</a>
-</nav>
+
+nav {
+  background: #0b0b0b;
+  padding: 12px 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 header {
   background: #0b0b0b;
@@ -31,24 +37,28 @@ header {
   padding: 40px 20px;
   text-align: center;
 }
+
 header h1 {
   color: #00b050;
+  margin-bottom: 8px;
 }
-section {
+
+main {
   max-width: 900px;
   margin: auto;
   padding: 40px 20px;
 }
+
 .job {
   border-bottom: 1px solid #ddd;
   padding: 20px 0;
 }
+
 .job h2 {
   color: #00b050;
+  margin-bottom: 8px;
 }
-.job p {
-  margin: 5px 0;
-}
+
 .notice {
   background: #f4f4f4;
   padding: 15px;
@@ -56,7 +66,8 @@ section {
   margin-top: 30px;
   font-size: 14px;
 }
-a.back {
+
+.back {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
@@ -68,35 +79,19 @@ a.back {
 
 <body>
 
-<header>
-  <h1>Available Painting Jobs</h1>
-  <p>View current opportunities</p>
-</header>
-<header>
-  <h1>Immediate Painters</h1>
-  <p>Part of JobsNZ</p>
-</header>
-<header>
-  <h1>Why Immediate Painters</h1>
-  <p>Designed to improve trust, clarity, and outcomes.</p>
-</header>
-  <nav class="nav">
+<nav>
   <a href="index.html">Home</a>
-  <a href="how-it-works.html">How It Works</a>
-  <a href="why-immediate-painters.html">Why Immediate Painters</a>
-  <a href="jobs.html">Available Jobs</a>
-  <a href="dashboard.html">Dashboard</a>
-  <a href="quotes.html">Quotes</a>
-  <a href="messages.html">Messages</a>
-  <a href="health-safety.html">Health & Safety</a>
-  <a href="health-safety-certificates.html">H&S Certificates</a>
-  <a href="incident-report.html">Incident Reporting</a>
+  <a href="how-it-works.html">How it works</a>
+  <a href="why-immediate-painters.html">Why</a>
+  <a href="jobs.html">Available jobs</a>
 </nav>
 
+<header>
+  <h1>Available Painting Jobs</h1>
+  <p>Current opportunities listed on Immediate Painters</p>
+</header>
 
-<section>
 <main>
-<section>
 
   <div class="job">
     <h2>Residential Interior Paint</h2>
@@ -121,10 +116,9 @@ a.back {
     the platform is fully operational.
   </div>
 
-  <a class="back" href="index.html">← Back to home</a>
+  <a class="back" href="index.html">← Back to Immediate Painters</a>
 
-</section>
+</main>
 
 </body>
 </html>
-
