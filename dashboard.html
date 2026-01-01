@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Dashboard | Immediate Painters</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
   margin: 0;
@@ -11,42 +12,23 @@ body {
   background: #f7f7f7;
   color: #222;
 }
-  <nav class="nav">
-  <a href="index.html">Home</a>
-  <a href="how-it-works.html">How It Works</a>
-  <a href="why-immediate-painters.html">Why</a>
-  <a href="jobs.html">Jobs</a>
-  <a href="dashboard.html">Dashboard</a>
-  <a href="quotes.html">Quotes</a>
-  <a href="messages.html">Messages</a>
-  <a href="health-safety.html">H&S</a>
-  <a href="health-safety-certificates.html">Certificates</a>
-  <a href="incident-report.html">Incident</a>
-</nav>
-<main class="dashboard">
-  <a class="card" href="quotes.html">Pending Quotes</a>
-  <a class="card" href="jobs.html">Jobs Won</a>
-  <a class="card" href="quotes.html">Total Quotes</a>
-  <a class="card" href="messages.html">Messages</a>
-</main>
-.dashboard {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  background: #f57c00;
-  padding: 40px;
-  min-height: 70vh;
+
+nav {
+  background: #0b0b0b;
+  padding: 12px 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.card {
-  background: #fff;
-  color: #111;
-  padding: 40px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+nav a {
+  color: #fff;
   text-decoration: none;
-  border-radius: 8px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -55,35 +37,44 @@ header {
   padding: 30px 20px;
   text-align: center;
 }
+
 header h1 {
   color: #00b050;
+  margin-bottom: 5px;
 }
+
 section {
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
 }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
+
 .card {
   background: #fff;
   padding: 25px;
-  border-radius: 14px;
+  border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: center;
 }
+
 .card h2 {
   color: #00b050;
+  margin-bottom: 10px;
 }
+
 .note {
   margin-top: 30px;
   font-size: 14px;
   opacity: 0.8;
 }
-a.back {
+
+.back {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
@@ -94,6 +85,13 @@ a.back {
 </head>
 
 <body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="how-it-works.html">How it works</a>
+  <a href="jobs.html">Jobs</a>
+  <a href="dashboard.html">Dashboard</a>
+</nav>
 
 <header>
   <h1>Your Dashboard</h1>
@@ -120,13 +118,13 @@ a.back {
 
     <div class="card">
       <h2>Messages</h2>
-      <p>Conversations with Immediate Painters team</p>
+      <p>Conversations with Immediate Painters</p>
     </div>
   </div>
 
   <p class="note">
-    This dashboard is a placeholder. Additional functionality will be added
-    as the platform develops.
+    This dashboard is a placeholder. Features shown here are not yet active
+    and will be enabled by agreement as the platform develops.
   </p>
 
   <a class="back" href="index.html">← Back to home</a>
@@ -135,4 +133,3 @@ a.back {
 
 </body>
 </html>
-
