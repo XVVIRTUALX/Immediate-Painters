@@ -88,13 +88,79 @@ footer {
 </nav>
 
 <header>
-  <h1>Quotes</h1>
-  <p>Managed project quotations</p>
-</header>
+  <h1>Quotes</h1<main>
 
-<main>
+  <h1>Request a Painting Quote</h1>
 
   <p>
+    Use this form to request a painting quote from contractors operating
+    through Immediate Painters. Providing clear information helps painters
+    respond accurately.
+  </p>
+
+  <form>
+
+    <h2>1. Job category</h2>
+    <label>
+      <input type="radio" name="category" required> Residential
+    </label><br>
+    <label>
+      <input type="radio" name="category"> Commercial
+    </label><br>
+    <label>
+      <input type="radio" name="category"> Contract / Trade
+    </label><br>
+    <label>
+      <input type="radio" name="category"> Insurance / Remedial
+    </label>
+
+    <h2>2. Job details</h2>
+
+    <label>
+      Address / Suburb<br>
+      <input type="text" placeholder="e.g. Hamilton East" required>
+    </label><br><br>
+
+    <label>
+      Description of work<br>
+      <textarea rows="4" placeholder="What needs to be painted?"></textarea>
+    </label><br><br>
+
+    <label>
+      Upload photos (optional)<br>
+      <input type="file" accept="image/*" multiple>
+    </label>
+
+    <h2>3. Contact details</h2>
+
+    <label>
+      Name<br>
+      <input type="text" required>
+    </label><br><br>
+
+    <label>
+      Email<br>
+      <input type="email" required>
+    </label><br><br>
+
+    <label>
+      Phone<br>
+      <input type="tel">
+    </label><br><br>
+
+    <button type="submit">
+      Submit quote request
+    </button>
+
+  </form>
+
+  <p class="note">
+    Immediate Painters facilitates connections only. Quotes and agreements
+    are between clients and contractors.
+  </p>
+
+
+ <p>
     Quotes submitted and reviewed through Immediate Painters are tracked here.
     This includes quotes requested by Immediate Painters as part of managed
     painting projects.
